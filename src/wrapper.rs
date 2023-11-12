@@ -282,7 +282,7 @@ impl ShaderProgram {
 }
 
 pub struct Setup {
-    pub window: glfw::WindowType,
+    pub window: WindowType,
     pub events: Receiver<(f64, glfw::WindowEvent)>,
 }
 
