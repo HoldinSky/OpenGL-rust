@@ -1,0 +1,12 @@
+[package]
+name = "open-gl-1"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+glfw = "0.53.0"
+gl = "0.14.0"
+imagine = "0.5.1"
+bytemuck = "1.14.0"
